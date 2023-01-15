@@ -1,3 +1,3 @@
 # TBA
 
-1. [Return to exercises](../../README.md)
+[Return to exercises](../../README.md)

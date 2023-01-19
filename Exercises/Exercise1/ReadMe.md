@@ -19,6 +19,10 @@ All validation is to be performed by throwing exceptions. Here are some general 
 - All string information must contain text. Null, empty, and plain white-space text is not allowed. Sanitize your strings by trimming the leading and trailing whitespace.
 - Use constants for minimum values.
 
+### Unit Testing Code 
+
+Unit testing code has been provided for you and can be located in the zip file in this folder. The zip file is called: RenoUnitTestEx1.zip. Download the file; unzip the file; move the RenoUnitTestEx1 folder to your solution; add the unit test project to your solution. Depending on any additional instructions from your instructor, you may need to update the project reference dependency and using statements.
+
 ### The `Opening`
 
 Openings cover a variety of types such as windows, doors, panels which hide items such as entertainment electronics, and closets. The following is opening information:
@@ -110,7 +114,7 @@ Your assignment will be marked based upon the following weights. See the [genera
 |  | 1 | OpeningType |   |
 |  | 3 | Room |   |
 |  | 2 | Utility methods (reusable validation methods) |   |
-|  | -4 | Other concerns and penalities (Unit Testing does not compile/run; commits reflect incremental development) max -4 |   |
+|  | -4 | Other concerns and penalities (Unit Testing does not compile/run; commits reflect incremental development; other instuctor requirements; ...) max -4 |   |
 | ---- | ----- | --------- | ------- |
 |  | **12** | **Total ** |    |
 

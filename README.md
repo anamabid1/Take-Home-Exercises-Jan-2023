@@ -1,4 +1,4 @@
-# Take-Home Exercises/Project - May 2022
+# Take-Home Exercises/Project - Jan 2023
 
 > Exercises for this term are posted to this repository. You can copy these instructions to your exercise repository set up by your instructor for this term.
 

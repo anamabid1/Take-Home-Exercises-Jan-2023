@@ -98,12 +98,9 @@ A Room is a set of walls with or without openings. A Room represents an distinct
 
 > ***NOTE:** Your code **must** compile. Solutions that do not compile will receive an automatic mark of zero (0).*
 > 
-> If you are unable to get a portion of the assignment to compile, you should:
-> - Comment out the non-compiling portion of code
-> - Identify the non-compiling portion in the **Incomplete Requirements** heading, noting the item's
->   - File name (e.g.: "Account.cs")
->   - Line number(s)
->   - Compiler error number and general message
+> If you are unable to get a portion of the assignment to compile or work, you should:
+> - Comment out the  portion of code
+> - Identify the reason for the commented portion (such *as does not compile* or *does not work cause an abort*)
 
 Your assignment will be marked based upon the following weights. See the [general rubric](../../ReadMe.md#generalized-marking-rubric) for details.
 

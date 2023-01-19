@@ -1,4 +1,4 @@
-# Take-Home Exercises/Project - Jan 2023
+# Take-Home Exercises - Jan 2023
 
 > Exercises for this term are posted to this repository. You can copy these instructions to your exercise repository set up by your instructor for this term.
 
@@ -7,7 +7,7 @@
 1. [Exercise 3](./Exercises/Exercise3/ReadMe.md)
 1. [Exercise 4](./Exercises/Exercise4/ReadMe.md)
 
-## Submission of exercises/project
+## Submission of exercises
 
 Your source code must be submitted as per your instruction's direction. 
 

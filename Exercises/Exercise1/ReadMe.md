@@ -102,7 +102,7 @@ A Room is a set of walls with or without openings. A Room represents an distinct
 > - Comment out the  portion of code
 > - Identify the reason for the commented portion (such *as does not compile* or *does not work cause an abort*)
 
-Your assignment will be marked based upon the following weights. See the [general rubric](../../ReadMe.md#generalized-marking-rubric) for details.
+Your assignment will be marked based upon the following weights. See the [general rubric](../../README.md#generalized-marking-rubric) for details.
 
 | Earned | Weight | Deliverable/Requirement | Comments |
 | ---- | ----- | --------- | ------- |

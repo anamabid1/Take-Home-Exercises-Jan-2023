@@ -4,16 +4,14 @@
 
 ## Overview
 
-Your task is to generate a set of simple data types to represent the primary objects for managing renovation projects.
-
-For this exercise, place all the required data types in the namespace `RenoSystem` and ensure that they are `public`. You will append methods to your class library project. You will create a Console Application (.NET 6). You will code a Unit Tests project that will inform you if your work will meet specifications. **Ensure you follow the given class diagrams for the Unit Tests to work.**
+For this exercise, you will append methods to your class library project. You will create a Console Application (.NET 6). You will code a Unit Tests project that will inform you if your work will meet specifications. 
 
 ### General Validation Rules
 
 All validation is to be performed by throwing exceptions. Here are some general requirements.
 
 - Exceptions must have meaningful error messages with keywords (ex: positive, minimum).
-- Use `ArgumentException()` for parameter value errors.
+- Use indicated error messages where specified.
 - Error messages must include details about the limits for acceptable values.
 - Measurements must always be positive and non-zero numbers. Measurements are to in whole number increments (eg: 254) (all measures are in metric centimeters).
 - All string information must contain text. Null, empty, and plain white-space text is not allowed. Sanitize your strings by trimming the leading and trailing whitespace.
@@ -29,13 +27,13 @@ Extend the `Wall` class by adding the following methods.
 - Add method **`DeleteOpening()`**
   - This method will remove an existing opening in the wall. 
 - Add method **`ReplaceOpening(Opening opening)`**
-  - This method will replace the opening in the wall. Ensure the opening meets the 90% validation on wall openings. Ensure a opening parameter was pass into the method. Use the `ArgumentNullException` message if the parameter is missing its value.
+  - This method will replace the opening in the wall. Ensure the opening meets the 90% validation on wall openings. Ensure a opening parameter was pass into the method. Use the `ArgumentNullException` message if the parameter is missing its value. Use `ArgumentException` for the 90% validation.
 
 ### The `Room`
 
 Add method `RemoveWall(string planid)` 
 
-- This method will locate and remove the wall matching the parameter. If the parameter value is missing throw an argument null exception. If the wall cannot be located, throw an argument exception message containing the supplied parameter in a string. Remove the wall if a matching wall exists.
+- This method will locate and remove the wall matching the parameter. If the parameter value is missing throw an `ArgumentNullException`. If the wall cannot be located, throw an `ArgumentException` message containing the supplied parameter in a string. Remove the wall if a matching wall exists.
 
 ### A Console I/O Driver : Program.cs
 
@@ -67,13 +65,13 @@ Create a method which receives a string representing the JSON filename and retur
 
  Read the room information [formatted as JSON](https://docs.microsoft.com/dotnet/api/system.text.json.jsonserializer?view=net-5.0) from the `JSON` file you wrote. Return the Room data from the method. Display the Room data after returning from the read method.
 
- **HINT:** Remember to place the annotation `[JsonInclude]` in front of your fields that are public.
+ **HINT:** Remember to place the annotation `[JsonInclude]` in front of any public fields.
 
 ### Display Current Room
 Use the supplied routine to display the contents of a Room. 
 
 ----
- Create a new unit testing project called `UnitTesting2`. The following table indicates the unit test cases to create. Unit Test names are left up to you. The required tests are outlined in the following table. 
+ Create a new unit testing project called `Ex2UnitTesting`. The following table indicates the unit test cases to create. Unit Test names are left up to you. The required tests are outlined in the following table. 
 
 #### Unit Tests
 
@@ -84,7 +82,7 @@ Use the supplied routine to display the contents of a Room.
 | ReplaceOpening  | Success | Replaces an opening in the Wall instance. |  
 | ReplaceOpening  | Fail | Missing opening instance parameter value (ArgumentNullException); 90% validation failure (ArgumentExpection) |  
 | RemoveWall  | Success | Removes a wall from the Room instance | 
-| RemoveWall  | FAil | Missing Wall instance parameter value (ArgumentNullException); PlanId not found (ArgumentExpection) | 
+| RemoveWall  | Fail | Missing Wall instance parameter value (ArgumentNullException); PlanId not found (ArgumentExpection) | 
 
 
 ----
@@ -92,16 +90,13 @@ Use the supplied routine to display the contents of a Room.
 ## Evaluation
 
 > ***NOTE:** Your code **must** compile. Solutions that do not compile will receive an automatic mark of zero (0).*
->
-> If you are unable to get a portion of the assignment to compile, you should:
->
-> - Comment out the non-compiling portion of code
-> - Identify the non-compiling portion in the **Incomplete Requirements** heading, noting the item's
->   - File name (e.g.: "Account.cs")
->   - Line number(s)
->   - Compiler error number and general message
+> 
+> If you are unable to get a portion of the assignment to compile or work, you should:
+> - Comment out the  portion of code
+> - Identify the reason for the commented portion (such *as does not compile* or *does not work cause an abort*)
 
-Your assignment will be marked based upon the following weights. See the [general rubric](../../ReadMe.md#generalized-marking-rubric) for details.
+Your assignment will be marked based upon the following weights. See the [general rubric](../../README.md#generalized-marking-rubric) for details.
+
 
 | Earning | Weight | Deliverable/Requirement | Comment |
 | ---- | --------- | ------- | ------------- |

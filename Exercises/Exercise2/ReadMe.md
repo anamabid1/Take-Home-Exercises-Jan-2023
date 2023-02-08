@@ -31,6 +31,8 @@ Extend the `Wall` class by adding the following methods.
 
 ### The `Room`
 
+Extend the `Room` class by adding the following method.
+
 Add method `RemoveWall(string planid)` 
 
 - This method will locate and remove the wall matching the parameter. If the parameter value is missing throw an `ArgumentNullException`. If the wall cannot be located, throw an `ArgumentException` message containing the supplied parameter in a string. Remove the wall if a matching wall exists.

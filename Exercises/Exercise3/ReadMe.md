@@ -82,6 +82,18 @@ You are expected to do your own research on how to implement the logic to solve 
 
 ![Home Page](./images/IndexRazorPage.png)
 
+## PersonInfo Page
+
+![PersonInfo Page](./images/PersonInfo.png)
+
+## PersonInfo Page - Current Age
+
+![PersonInfo Page](./images/PersonInfo_CurrentAgeResult.png)
+
+## PersonInfo Page - Age On
+
+![PersonInfo Page](./images/PersonInfo_AgeOneResult.png)
+
 ## Royal Family Page
 
 ![Royal Family](./images/RoyalFamilyListRazorPage.png)

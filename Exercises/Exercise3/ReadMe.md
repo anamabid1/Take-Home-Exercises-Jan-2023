@@ -36,8 +36,6 @@ The Chinese Zodic animal of a person can be determine by looking up the followin
 | 9 | Snake |
 | 10 | Horse |
 | 11| Sheep |
-|:--:| 
-| *Space* |
 
 The Astrological sign of a person can be determine by looking up the following table.
 

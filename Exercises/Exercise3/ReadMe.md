@@ -78,6 +78,26 @@ You are expected to do your own research on how to implement the logic to solve 
 1. OPTIONAL CHALLENGE: display in image instead of text for the Chinese Zodiac animal and Astrological Sign of person in both the `PersonInfo` and `RoyalFamilyList`
 ----
 
+### Samples
+
+## Index Page
+
+![Home Page](./images/IndexRazorPage.png)
+
+## Royal Family Page
+
+![Royal Family](./images/RoyalFamilyListRazorPage.png)
+
+## Create Team Input/Output Page
+
+![InputPage](./images/CreateTeamsRazorPage.png)
+
+![Output](./images/CreateTeamsRazorPageResult.png)
+
+## Person Class Diagram
+
+![Classdiagram](./images/PersonClassDiagram.png)
+
 ## Evaluation
 
 > ***NOTE:** Your code **must** compile. Solutions that do not compile will receive an automatic mark of zero (0).*
@@ -106,7 +126,3 @@ Your assignment will be marked based upon the following weights. See the [genera
 
 [Return to exercises](../../README.md)
 
-<<<<<<< Updated upstream
-[Return to exercises](../../README.md)
-=======
->>>>>>> Stashed changes

@@ -59,9 +59,9 @@ The Astrological sign of a person can be determine by looking up the following t
 1. Modify the `Index.cshtml` file display an image of you and a one sentence description of yourself. 
 1. Add a new folder to your project named `Models`
 1. In the `Models` folder, add a new C# class named `Person`.
-1. Modify the `Person` class to add properties for the `Name` and `DateOfBirth`
+1. Modify the `Person` class to add public properties for the `Name` and `DateOfBirth`
 1. Modify the `Person` class to add a constructor to set `Name` to your full name and the `DateOfBirth` to your date of birth.
-1. Modify the `Person` class and add a instance-level method that returns the current age of the person as of the current date.
+1. Modify the `Person` class and add a public property (read-only) that returns the current age of the person as of the current date.
 1. Modify the `Person` class and add a instance-level method that is passed a `DateTime` parameter and returns the current age of the person as of the `DateTime` parameter value.
 1. Modify the `Person` class and add a instance-level method that returns the Chinese Zodiac animal of the person as described in table 1.
 1. Modify the `Person` class and add a instance-level method that returns the the Astrological Sign of the person as described in table 2.
